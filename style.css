@@ -1,0 +1,51 @@
+header,li{
+  display: inline;/*gmail,images et menu a droite*//*mots sur la meme ligne*/
+  text-align: right;/*gmail,images et menu a droite*/
+
+}
+input{
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 25%;
+  /*pcace barre de recherche*/
+
+ }
+section{
+  margin-left: auto;
+  margin-right:auto;
+  max-width: 940px;/*place logo google*/
+}
+footer{
+  background-color:#eeeeee;/*couleur gris fond footer*/
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /*place le fond couleur */
+}
+footer ul{
+  display: inline;/*aligne les liens ds le footer*/
+  }
+.left {
+    float:left;/*place 3 liens a gauches*/
+  }
+.right{
+    float:right;/*place 3 liens a droite*/
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
