@@ -1,37 +1,42 @@
-header,li{
+/*-------------------------header-----------------------*/
+.entete li{
   display: inline;/*gmail,images et menu a droite*//*mots sur la meme ligne*/
-  text-align: right;/*gmail,images et menu a droite*/
+  float:right;
 
 }
-input{
-  padding: 10px;
-  margin-left: 20%;
-  margin-right: 25%;
-  /*pcace barre de recherche*/
-
- }
-section{
-  margin-left: auto;
-  margin-right:auto;
-  max-width: 940px;/*place logo google*/
+/*----------------------------logo goole-------------------------*/
+.logo{
+width: 25%;
+height: 25%;
+margin-left: 35%;
+margin-top: 8%;
 }
+/*-----------------------------barre de recherche--------------------*/
+.text{
+  display: block;
+  margin-left: 28%;
+  width: 35%;
+}
+/*--------------------------footer--------------------------------*/
 footer{
   background-color:#eeeeee;/*couleur gris fond footer*/
-  height: auto;
+  height: 10%;
   position: absolute;
-  bottom: 0;
   width: 100%;
-  /*place le fond couleur */
+  margin-top:17%;
 }
-footer ul{
-  display: inline;/*aligne les liens ds le footer*/
-  }
-.left {
-    float:left;/*place 3 liens a gauches*/
-  }
+/*-----------------------ligne liens----------------------*/
+footer li{
+display: inline;/* installe les 6 items en une ligne*/
+
+}/*----------------3 items a droite-----------------------*/
 .right{
-    float:right;/*place 3 liens a droite*/
-  }
+  float: right;
+  /*----------------3 items a gauche----------------------*/
+}
+.left{
+  float: left;
+}
 
 
 
